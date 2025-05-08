@@ -57,3 +57,4 @@ eval "$(direnv hook zsh)"
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+echo -n > ~/.local/state/nvim/lsp.log

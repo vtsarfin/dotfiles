@@ -27,3 +27,5 @@ opt.relativenumber = false
 vim.g.mapleader = "\\"
 vim.g.spelllang = "en,ru,he"
 opt.spelllang = "en,ru,he"
+opt.keymap = "russian-jcukenwin"
+opt.iminsert = 0
